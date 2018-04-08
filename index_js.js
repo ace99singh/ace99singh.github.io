@@ -1,6 +1,7 @@
 /*using this until cause i don't know server side lang*/
 var maxVal = {
-  ot: 3
+  ot: 3,
+  qp: 3
 };
 var max;
 var folder = null;
