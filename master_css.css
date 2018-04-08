@@ -53,7 +53,9 @@ a {
 }
 
 .subject {
-  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: white;
   height: 50px;
   width: 150px;
@@ -72,23 +74,16 @@ a {
 }
 
 h1 {
-  padding-top: 7px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-h2 {
-  position: relative;
-  top: 18%;
-  height: 35px;
-  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
 }
 
 h5 {
-  position: relative;
-  top: 18%;
-  height: 35px;
   margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
 }
 
 .subject:hover {
